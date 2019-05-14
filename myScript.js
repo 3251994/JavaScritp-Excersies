@@ -96,35 +96,7 @@ if (!(studentAge >18))
 	document.write("Student age is less than 18");
 }  */
 
-/* var x = 15,y = 7 ,z = 3;
-
-if ((x >y) && (x > z))
-   {
-	document.write(" Largest number is " +x+ ");
-	}else if ( (y > x) && (y > z) )
-	{
-		document.write(" Largest number is " +y+ ");
-	}
-	else
-	{
-		document.write(" Largest number is " +z+ ");
-	}
-	
-var x = 15, y = 7, z  = 3;
-    
-    if ( (x > y) && (x > z) ) {
-      
-      document.write("The largest number is " + x + ");
-      
-    } else if ( (y > x) && (y > z) ) {
-      
-      document.write("The largest number is " + y + ");
-      
-    } else {
-      
-      document.write("The largest number is " + z + ");
-      
-    } */
+/* */
 	
 /* document.write("while loop");
 var x =	1;
@@ -173,5 +145,124 @@ for(z = 1; z <= 10; z++)
 } 
  */
  
-  
+ /* function fun(){
+	 document.write("inside fun");
+ }	 
+ fun();
+ 
+ function funpara( a1,a2){
+	 var res = a1 * a2;
+	 document.write("a1 * a2 =" + res + "<br>");
+	 
+ }
+ funpara(100, 200); */
+ 
+/* function paraAsfun( func){
+	func();
+}
+paraAsfun(otherfun);
 
+function otherfun(){
+	alert("alert msg! fun passed as an argument");
+}
+
+function retunSum(a ,b){
+	var sum = a + b;
+	return sum;
+}
+
+/* var result = retunSum(100, 200);
+document.write("Returned Value = " +result); */
+
+/* document.write("Returned Value = " +retunSum(100, 200)); */
+ 
+ /* function sum(a,b){
+	 return (a + b);
+ }
+ 
+ var s = sum;
+ var r = s(10,20);
+ document.write(r+"<br>"); */
+
+ /* var isAdult = function(age){
+	 if( age >= 18){
+		 return "Yes";
+	 }else{
+		 return "No";
+	 }
+ };
+ var x = isAdult(25);
+ document.write("Adult status: " +x); */
+ 
+ /* (function(){
+	 alert("Auto show up msg");
+ })();
+
+ (function(){
+	 alert("Auto show up msg2");
+ })();
+
+ (function(a, b){
+	 alert("Sum of a & b: " +(a+b));
+ })(10,20);
+ 
+ var sum =(function(a,b){
+	 return (a+b);
+	 
+ })(10,30);
+ 
+ alert("returned Sum : " +sum); */
+ 
+/*  var x = 122;
+ 
+ function myfunc(){
+	 alert("inside function" + x);
+ }
+myfunc();
+alert("outside function" + x);
+
+function myfunc1(){
+	
+	var y =23;
+	 document.write("inside function" + y);
+ }
+myfunc1();
+//document.write("outside function" + y);
+ 
+function myfunc2(){
+	c = 200;
+	document.write("inside function" + c);
+ }
+myfunc2();
+document.write("outside function" + c); */
+
+
+ /* function outerFunctoin(){
+	 
+	 function innerFunction(){
+		 
+		 document.write("Execution inside function");
+	 }
+	 //innerFunction();
+ }
+ //outerFunction();
+ */
+ 
+ /* alert("Welcome to this website");
+ 
+ var c = confirm("Do you want us to send to the updates?");
+ 
+ if (c){
+	 document.write("ok, we will send you the updates");
+ }else{
+	 document.write("ok, we will not send you the updates");
+ }
+  */
+ var visitorAge = prompt("enter your age");
+ if(visitorAge >= 18){
+	 document.write("U r good to go!");
+ } else{
+	 document.write("u r not good to go!");
+	 document.write(visitorAge);
+ }
+ 
