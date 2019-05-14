@@ -96,7 +96,7 @@ if (!(studentAge >18))
 	document.write("Student age is less than 18");
 }  */
 
-var x = 15,y = 7 ,z = 3;
+/* var x = 15,y = 7 ,z = 3;
 
 if ((x >y) && (x > z))
    {
@@ -124,6 +124,54 @@ var x = 15, y = 7, z  = 3;
       
       document.write("The largest number is " + z + ");
       
-    }
+    } */
+	
+/* document.write("while loop");
+var x =	1;
+while (x<=5)
+{
+	document.write(x + "<br>"); 
+	x++;
+
+}
+
+
+document.write("do while loop");
+
+var y = 6;
+do{
+	document.write(y + "<br.");
+	y++;
+}while(y <= 5);
+
+document.write("for loop");
+
+for(z = 1; z <= 5; z++)
+{
+	document.write(z + "<br>");
+} */
+/* var z;
+document.write("break ");
+for(z = 1; z <= 10; z++)
+{
+	document.write(z + "<br>");
+	if(z == 7){
+	break;
+	}
+	document.write(z + "<br/>");
+} 
+
+var z;
+document.write("continue");
+for(z = 1; z <= 10; z++)
+{
+	document.write(z + "<br>");
+	if( z == 7 ){
+	continue;
+	}
+	//document.write(z + "<br/>");
+} 
+ */
+ 
   
 
