@@ -96,173 +96,197 @@ if (!(studentAge >18))
 	document.write("Student age is less than 18");
 }  */
 
-/* */
-	
-/* document.write("while loop");
-var x =	1;
-while (x<=5)
-{
-	document.write(x + "<br>"); 
-	x++;
+/* var x = 15,y = 7 ,z = 3;
 
+if ((x >y) && (x > z))
+   {
+	document.write(" Largest number is " +x+ ");
+	}else if ( (y > x) && (y > z) )
+	{
+		document.write(" Largest number is " +y+ ");
+	}
+	else
+	{
+		document.write(" Largest number is " +z+ ");
+	}
+	
+var x = 15, y = 7, z  = 3;
+    
+    if ( (x > y) && (x > z) ) {
+      
+      document.write("The largest number is " + x + ");
+      
+    } else if ( (y > x) && (y > z) ) {
+      
+      document.write("The largest number is " + y + ");
+      
+    } else {
+      
+      document.write("The largest number is " + z + ");
+      
+    } */
+  
+/* var person = new Object();
+person.firstName = "Anitson";
+person.lastName = "T T";
+person.age = 25;
+person.height = 5.9;
+person.fullName = function(){
+	return (person.firstName + "" + person.lastName );
+}
+alert(person.firstName);
+alert(person["age"]);
+alert(person.fullName());
+ */
+
+/* function Person(fName, LName,age, hg){
+	this.firstName = fName;
+	this.lastName = LName;
+	this.age = age;
+	this.height = hg;
+	this.fullName = function(){
+		return (this.firstName + "  " + this.lastName);
+	}
 }
 
+var myBrother = new Person("Atkinson", " T T ", 25, 5.9);
 
-document.write("do while loop");
+alert(myBrother.firstName);
+alert(myBrother.fullName()); */
 
-var y = 6;
-do{
-	document.write(y + "<br.");
-	y++;
-}while(y <= 5);
 
-document.write("for loop");
-
-for(z = 1; z <= 5; z++)
-{
-	document.write(z + "<br>");
-} */
-/* var z;
-document.write("break ");
-for(z = 1; z <= 10; z++)
-{
-	document.write(z + "<br>");
-	if(z == 7){
-	break;
+/* var person = {
+	firstName : "Anitson",
+	lastName : "T T",
+	age : 25,
+	height : 5.9,
+	fullName: function(){
+		return(this.firstName + "  " + this.lastName);
 	}
-	document.write(z + "<br/>");
-} 
+};
+/* alert(person.firstName);
+alert(person["age"]);
+alert(person.fullName()); */
 
-var z;
-document.write("continue");
-for(z = 1; z <= 10; z++)
-{
-	document.write(z + "<br>");
-	if( z == 7 ){
-	continue;
+/* var x = person;
+
+x.firstName = "Appu";
+
+alert(x.firstName);
+alert(person.firstName);
+
+
+delete person.age;
+alert(person.age);
+
+
+var myCar ={
+	name: "Benz",
+	year: 2018,
+	color: "Red"
+};
+
+var v =" ";
+
+for(var k in myCar ){
+	v = v + myCar[k] + " ";
+}
+
+alert(v);
+
+var user ={
+	name: "Anitson T T",
+	age: 25,
+	size :{
+		top: 90,
+		middle: 60,
+		bottom: 90
 	}
-	//document.write(z + "<br/>");
-} 
+};
+
+alert(user.name);
+alert(user.size.top); */
+
+/* var currentTime = new Date(5456656546);
+alert(currentTime); */
+
+/*
+var dt = new Date("March 25, 2020");
+alert(dt);
+
+var dtm = new Date();
+
+document.write("Date: " + dtm.getDate() + dtm.getDay() + dtm.getMonth() + dtm.getFullYear() + dtm.getHours() + dtm.getMinutes() + dtm.getSeconds());
  */
  
- /* function fun(){
-	 document.write("inside fun");
- }	 
- fun();
+ /* var sqr = Math.sqrt(20);
  
- function funpara( a1,a2){
-	 var res = a1 * a2;
-	 document.write("a1 * a2 =" + res + "<br>");
-	 
- }
- funpara(100, 200); */
+ document.write("Square root :" + sqr);
  
-/* function paraAsfun( func){
-	func();
-}
-paraAsfun(otherfun);
-
-function otherfun(){
-	alert("alert msg! fun passed as an argument");
-}
-
-function retunSum(a ,b){
-	var sum = a + b;
-	return sum;
-}
-
-/* var result = retunSum(100, 200);
-document.write("Returned Value = " +result); */
-
-/* document.write("Returned Value = " +retunSum(100, 200)); */
+ var min = Math.min(10,20,3,15,7);
  
- /* function sum(a,b){
-	 return (a + b);
- }
- 
- var s = sum;
- var r = s(10,20);
- document.write(r+"<br>"); */
-
- /* var isAdult = function(age){
-	 if( age >= 18){
-		 return "Yes";
-	 }else{
-		 return "No";
-	 }
- };
- var x = isAdult(25);
- document.write("Adult status: " +x); */
- 
- /* (function(){
-	 alert("Auto show up msg");
- })();
-
- (function(){
-	 alert("Auto show up msg2");
- })();
-
- (function(a, b){
-	 alert("Sum of a & b: " +(a+b));
- })(10,20);
- 
- var sum =(function(a,b){
-	 return (a+b);
-	 
- })(10,30);
- 
- alert("returned Sum : " +sum); */
- 
-/*  var x = 122;
- 
- function myfunc(){
-	 alert("inside function" + x);
- }
-myfunc();
-alert("outside function" + x);
-
-function myfunc1(){
-	
-	var y =23;
-	 document.write("inside function" + y);
- }
-myfunc1();
-//document.write("outside function" + y);
- 
-function myfunc2(){
-	c = 200;
-	document.write("inside function" + c);
- }
-myfunc2();
-document.write("outside function" + c); */
-
-
- /* function outerFunctoin(){
-	 
-	 function innerFunction(){
-		 
-		 document.write("Execution inside function");
-	 }
-	 //innerFunction();
- }
- //outerFunction();
- */
- 
- /* alert("Welcome to this website");
- 
- var c = confirm("Do you want us to send to the updates?");
- 
- if (c){
-	 document.write("ok, we will send you the updates");
- }else{
-	 document.write("ok, we will not send you the updates");
- }
+ document.write("min" + min);
   */
- var visitorAge = prompt("enter your age");
- if(visitorAge >= 18){
-	 document.write("U r good to go!");
- } else{
-	 document.write("u r not good to go!");
-	 document.write(visitorAge);
- }
+  
+/*  var myColors = new Array("Red", "Green", "Blue");
  
+ document.write(myColors[2]);
+ 
+ var myColors = ["red","green","blue"];
+ 
+ document.write(myColors[0]);
+ 
+ myColors[1]="Yellow";
+ document.write(myColors);
+ 
+ document.write(myColors.length);
+ 
+ document.write(myColors.sort());
+ 
+ document.write(myColors.reverse());
+  myColors.push("pink");
+  document.write(myColors);
+  
+  myColors.pop("pink");
+  document.write(myColors);
+  
+  var listOne = [1,2,3];
+  var listTwo = [4,5,6];
+  
+  var fullList = listOne.concat(listTwo);
+  
+  document.write(fullList); */
+  
+  /* var myCars = ["Benz","Toyota","Audi"];
+  
+  for ( var i = 0; i < myCars.length; i++){
+	  document.write(myCars[i]);
+  } */
+ 
+ /* var myCars = [
+		{model:" Benz", year:2018 },
+	    {model:"Audi", year:2019}
+ ];
+ 
+ for(var k=0; k < myCars.lenght; k++){
+	 var myCar= "";
+	 for(var cp in myCars[k]){
+		 myCar = myCar + myCars[k][cp];
+	 }
+	 document.write(myCar);
+ } */
+ 
+ var eBooks = [
+	{title:"book1",author:"author1",readingStatus:true},
+	{title:"book2",author:"author2",readingStatus:false},
+	{title:"book3",author:"author3",readingStatus:true}
+];
+
+for (var x =0; x < eBooks.lenght; x++){
+	var book = "'" + eBooks[i].title + "'" + 'by' + eBooks[i].author + ".";
+	 if(eBooks[i].readingStatus){
+		 document.wirte("Already read" + book + "<br>);
+	 }else{
+		 document.write("Still need to read" +book);
+	 }
+}
