@@ -276,7 +276,7 @@ document.write("Date: " + dtm.getDate() + dtm.getDay() + dtm.getMonth() + dtm.ge
 	 document.write(myCar);
  } */
  
- var eBooks = [
+/*  var eBooks = [
 	{title:"book1",author:"author1",readingStatus:true},
 	{title:"book2",author:"author2",readingStatus:false},
 	{title:"book3",author:"author3",readingStatus:true}
@@ -289,4 +289,27 @@ for (var x =0; x < eBooks.lenght; x++){
 	 }else{
 		 document.write("Still need to read" +book);
 	 }
-}
+} */
+
+/* var regExp1 = new RegExp("anitson");
+
+var regExp2 = /anitson/;
+
+var strToSerach = "Am anitson TT";
+
+var matchFound = regExp2.test(strToSerach);
+alert(matchFound);
+
+
+var functionAsObject = new Function("a", "b","return a + b");
+
+var x = functionAsObject(10, 25);
+
+alert(x);
+
+var y = function(a,b){return (a + b) };
+
+alert(y(20,50)); */
+
+
+
