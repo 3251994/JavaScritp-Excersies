@@ -311,5 +311,28 @@ var y = function(a,b){return (a + b) };
 
 alert(y(20,50)); */
 
+/* var ss = new String("Indian");
 
+document.write(ss + "<br>");
+
+var st = "i am an indian";
+
+document.write("lenght" + st.charAt(2) + "<br>" );
+ */
+
+/*  var n = new Number(15);
+ 
+ document.write(n);
+ 
+ document.write("Primitive value" + n.valueOf());
+ 
+ var numCheck = 20 +"t";
+ document.write(numCheck+ "is" +isNaN(numCheck));
+ 
+ var myNum = 123;
+ document.write(myNum.toString());
+  */
+ 
+
+ 
 
