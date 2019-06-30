@@ -333,6 +333,69 @@ document.write("lenght" + st.charAt(2) + "<br>" );
  document.write(myNum.toString());
   */
  
+/* var x= 15;
+alert(window.x);
 
+
+function y (){
+	document.write("golbal function");
+}
+ window.y();
+ 
+ alert("alert without window obj");
+ 
+ window.alert("alert using window obj");
+ 
+ window.confirm("confirm invoked using window obj");
+ 
+ window.prompt("prompt invoked using window obj");
+ 
+ document.write(window.innerWidth + "<br>");
+ 
+ document.write(window.innerHeight + "<br>");
+ 
+ document.write(window.outerWidth + "<br>");
+ 
+ document.write(window.outerHeight + "<br>");
+ 
+ document.write(window.innerWidth + "<br>");
+ 
+ window.name = "Anitson Window";
+ 
+ document.write(window.name);
+ 
+ var win = window.open("http://www.udemy.com","Udemy", "width=150,height=150");
+ 
+ win.resizeTo(250,250);
+ 
+ win.moveTo(350,200); */
+ 
+ 
+ /* 
+ function sayHello(){
+	 alert("Hello");
+ }
+ 
+ /*window.setTimeout(sayHello,2000);*/
+ /* var st=setTimeout(sayHello,2000);
+ 
+ clearTimeout(st); */
+ 
+ /* var st=window.setInterval(sayHello,2000);
+ 
+ clearInterval(st); */
  
 
+/* document.write(window.screen.width + "<br>");
+
+document.write(window.screen.height + "<br>");
+
+document.write(screen.availWidth + "<br>");
+
+document.write(screen.availHeight + "<br>");
+
+document.write(screen.colorDepth + "<br>");
+
+document.write(screen.pixelDepth + "<br>"); */
+
+document.write("history" + window.history.lenght + "<br>");
