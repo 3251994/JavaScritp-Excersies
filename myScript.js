@@ -386,7 +386,9 @@ function y (){
  clearInterval(st); */
  
 
-/* document.write(window.screen.width + "<br>");
+/* 
+
+document.write(window.screen.width + "<br>");
 
 document.write(window.screen.height + "<br>");
 
@@ -398,4 +400,42 @@ document.write(screen.colorDepth + "<br>");
 
 document.write(screen.pixelDepth + "<br>"); */
 
-document.write("history" + window.history.lenght + "<br>");
+/* document.write("history" + window.history.lenght + "<br>");
+
+history.back(); */
+
+/* history.forward();
+
+history.go(1);
+history.go(-2); */
+/* 
+document.write(window.navigator.cookieEnabled);
+
+document.write(navigator.appName);
+document.write(navigator.appVersion);
+document.write(navigator.appCodeName);
+document.write(navigator.platform);
+document.write(navigator.language);
+document.write(navigator.javaEnabled);
+ */
+ 
+ // window.location = "http://udemy.com";
+ 
+ //document.write(location.href);
+ 
+ // document.write(location.hostname);
+ 
+ /* document.write(location.pathname);
+ 
+ document.write(location.protocol); */
+ 
+ /* location.assign("https://www.google.com");
+ */
+ /* location.reload(); */
+ 
+ /* location.replace("https://www.google.com");
+ */
+ 
+ document.cookie = "userFN=anitson;expires = thu,22 jan 2020 12:00:00 UTC";
+ 
+ alert(document.cookie);
