@@ -436,6 +436,48 @@ document.write(navigator.javaEnabled);
  /* location.replace("https://www.google.com");
  */
  
- document.cookie = "userFN=anitson;expires = thu,22 jan 2020 12:00:00 UTC";
+ /* document.cookie = "userFN=anitson;expires = thu,22 jan 2020 12:00:00 UTC";
  
- alert(document.cookie);
+ alert(document.cookie); */
+ 
+/*  var hElement = document.getElementById("heading");
+  alert(hElement);
+  
+  alert(hElement.innerHTML);
+  
+  alert(hElement.getAttribute("id"));
+  
+  alert(hElement.tagName);
+  
+  var pElements = document.getElementsByClassName("paragraph");
+ /*  alert(pElements); */
+/*  alert(pElements[0]);
+ 
+ alert(pElements[0].innerHTML); */
+ 
+ for(var i=0; i < pElements.lenght; i++){
+	 //alert(pElements[i].innerHTML);
+	 
+ }
+ 
+ /* var ulElements = document.getElementsByTagName("ul");
+ 
+ alert(ulElements);
+ alert(ulElements[1].innerHTML);
+ var liElments = ulElements[1].getElementsByTagName("li");
+ alert(liElments[0].innerHTML);
+ 
+ var nameElements = document.getElementsByName("user-name");
+ alert(nameElements[0].tagName); */
+ 
+ //var paElement = document.querySelector("P");
+ //alert( paElement.innerHTML );
+ 
+ /* var headElement = document.querySelector("#heading");
+ 
+ alert( headElement.innerHTML ); */
+ 
+ var pElements = document.querySelectorAll("p");
+ alert(pElements[1].innerHTML);
+ 
+ 
