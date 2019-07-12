@@ -514,14 +514,47 @@ alert(liLastChild);
  */
 
 
- var ulElements = document.getElementById("list");
+ //var ulElements = document.getElementById("list");
  
- var newListElement = document.createElement("li");
+ //var newListElement = document.createElement("li");
  
- var newLiText = document.createTextNode("this in new list item");
+ //var newLiText = document.createTextNode("this in new list item");
  
- newListElement.appendChild(newLiText);
+ //newListElement.appendChild(newLiText);
  
- ulElements.appendChild(newListElement);
+ //ulElements.appendChild(newListElement); */
  
+//var liElments = document.getElementById("list-item");
+ //liElments.parentNode.appendChild(newListElement);
+ 
+ //liElments.parentNode.insertBefore(newListElement,liElments);
+ 
+ //liElments.parentNode.replaceChild(newListElement, liElments);
+ 
+ var hElement = document.getElementById("heading");
+ 
+ //alert(hElement.nodeValue);
+ 
+ 
+ //alert(hElement.childNodes[0].nodeValue);
+ 
+ //alert(hElement.firstChild.nodeValue);
+ 
+ //hElement.firstChild.nodeValue = "Changed";
+
+ //hElement.textContent = " changed using Text Content";
+ 
+ //hElement.innerHTML = "<em>Changed using innerHTML</em>";
+ 
+ //hElement.outerHTML = "<h2><em> Changed </em></h2>";
+ 
+ var imageElement = document.getElementsByTagName("img")[0];
+ 
+ //imageElement.setAttribute("src", "image.png");
+ 
+ imageElement.src="image.png";
+ 
+ var aElement = document.getElementsByName("a")[0];
+ 
+ aElement.href="https://www.google.com";
  
