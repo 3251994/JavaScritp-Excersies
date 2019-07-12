@@ -546,15 +546,51 @@ alert(liLastChild);
  
  //hElement.innerHTML = "<em>Changed using innerHTML</em>";
  
- //hElement.outerHTML = "<h2><em> Changed </em></h2>";
+ //hElement.outerHTML = "<h2><marquee> Changed </marquee></h2>";
  
- var imageElement = document.getElementsByTagName("img")[0];
+ //var imageElement = document.getElementsByTagName("img")[0];
  
  //imageElement.setAttribute("src", "image.png");
  
- imageElement.src="image.png";
+ //imageElement.src="image.png";
  
- var aElement = document.getElementsByName("a")[0];
+ //var aElement = document.getElementsByName("a")[0];
  
- aElement.href="https://www.google.com";
+ //aElement.href="https://www.google.com";
+ 
+ var hElement = document.getElementById("heading");
+ 
+ //hElement.style.color="white";
+ 
+ //hElement.style.border="1px solid red";
+ 
+ //hElement.style.backgroundColor="blue";
+ 
+ //hElement.style.padding="10px";
+ 
+ hElement.className="heading-css heading1-css";
+ // hElement.setAttribute("class","heading-css heading1-css");
+ 
+// var pElement = document.getElementById("my-p");
+ 
+ /* pElement.style.color="yellow";
+ 
+ pElement.style.fontSize="10px";
+ 
+ pElement.style.border="2px double black";
+ 
+ pElement.style.padding="20px"; */
+ 
+ //pElement.className="my-p";
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
