@@ -558,7 +558,7 @@ alert(liLastChild);
  
  //aElement.href="https://www.google.com";
  
- var hElement = document.getElementById("heading");
+ //var hElement = document.getElementById("heading");
  
  //hElement.style.color="white";
  
@@ -568,7 +568,7 @@ alert(liLastChild);
  
  //hElement.style.padding="10px";
  
- hElement.className="heading-css heading1-css";
+// hElement.className="heading-css heading1-css";
  // hElement.setAttribute("class","heading-css heading1-css");
  
 // var pElement = document.getElementById("my-p");
@@ -585,7 +585,37 @@ alert(liLastChild);
  
  
  
- 
+ (function(){
+	 
+	 var imgElement = document.getElementById("img");
+	 
+	  var imgTopPosition = 0;
+	  
+	  var imgLeftPosition = 450;
+	  
+	  setInterval(moveImage, 10);
+	  
+	  function moveImage(){
+		  
+		  if(imgTopPosition < 270 && imgLeftPosition == 450 ){
+			  imgTopPosition++;
+			  imgElement.style.top =imgTopPosition + "px";
+			  
+	  }else if(imgLeftPosition <720 && imgTopPosition == 270 ){
+			  imgLeftPosition++;
+			  imgElement.style.left = imgLeftPosition + "px";
+		  }else if (imgTopPosition > 0){
+			  imgTopPosition--;
+			  imgElement.style.top = imgTopPosition + "px";
+			  
+		  }else if (imgLeftPosition > 450 ){
+			  imgLeftPosition--;
+			  imgElement.style.left = imgLeftPosition + "px";
+		  }
+	  }
+	  
+	 
+ })();
  
  
  
