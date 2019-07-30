@@ -618,11 +618,43 @@ alert(liLastChild);
  })();
   */
   
+/* function doSomething(){
+	alert("just cliked");
+} */  
+ 
+ var btnElement = document.getElementById("btn");
+ 
+ btnElement.onclick = function(){
+	 alert("just cliked");
+ }
+ 
+ /* window.onload = function(){
+	 alert("this page just finished loading");
+ } */
+ 
+ var hElement = document.getElementById("heading");
+ 
+ /* hElement.onmouseover = function(){
+	 if(this.className == "h-normal"){
+		 this.className = "h-changed";
+	 }else{
+		 this.className = "h-normal";
+	 }
+ }
+ 
+ hElement.onmouseover = function(){alert("it just overwrite the previous event handler");}
+  */
   
+  var btn2Element = document.getElementById("btn1");
+  
+  function changeBtnFontSize(){
+	  this.style.fontSize = "45px";
+  }
+  
+  btn2Element.addEventListener("click", changeBtnFontSize);
  
+ btn2Element.addEventListener("click", function(){alert("will not be overwitre")} );
  
- 
- 
- 
+ btn2Element.removeEventListener("click", changeBtnFontSize);
  
  
