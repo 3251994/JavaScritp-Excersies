@@ -582,7 +582,7 @@ alert(liLastChild);
  pElement.style.padding="20px"; */
  
  //pElement.className="my-p";
- 
+/*  
  
  
  (function(){
@@ -616,7 +616,9 @@ alert(liLastChild);
 	  
 	 
  })();
- 
+  */
+  
+  
  
  
  
