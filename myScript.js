@@ -631,7 +631,7 @@ alert(liLastChild);
  /* window.onload = function(){
 	 alert("this page just finished loading");
  } */
- 
+/*  
  var hElement = document.getElementById("heading");
  
  /* hElement.onmouseover = function(){
@@ -657,7 +657,7 @@ alert(liLastChild);
  
  btn2Element.removeEventListener("click", changeBtnFontSize);
   */
- var btn2Element = document.getElementById("btn1");
+ /* var btn2Element = document.getElementById("btn1");
  
  function changeBtnFontSize(event){
 	 //this.style.fontsize = "40px";
@@ -683,4 +683,17 @@ alert(liLastChild);
  
  aElement.addEventListener("click",clickMe);
  
- 
+   */
+   
+   var x ="test";
+   try{
+	   if(isNaN(x)){
+		   throw("not a number");
+	   }
+   }
+   catch(e){
+	   alert("error" + e);
+   }
+   finally{
+	   document.write("<h1> hai");
+   }
