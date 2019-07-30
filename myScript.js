@@ -645,7 +645,7 @@ alert(liLastChild);
  hElement.onmouseover = function(){alert("it just overwrite the previous event handler");}
   */
   
-  var btn2Element = document.getElementById("btn1");
+  /* var btn2Element = document.getElementById("btn1");
   
   function changeBtnFontSize(){
 	  this.style.fontSize = "45px";
@@ -656,5 +656,31 @@ alert(liLastChild);
  btn2Element.addEventListener("click", function(){alert("will not be overwitre")} );
  
  btn2Element.removeEventListener("click", changeBtnFontSize);
+  */
+ var btn2Element = document.getElementById("btn1");
+ 
+ function changeBtnFontSize(event){
+	 //this.style.fontsize = "40px";
+	 
+	 alert(event.target.fontSize = "40px";
+	 
+	 
+	 
+	 alert(event.type);
+	 
+	 alert(event.target);
+ }
+ 
+ btn2Element.addEventListener("click", changeBtnFontSize);
+ 
+ var aElemnet = document.getElementById("click-me");
+ 
+ function clickMe(event){
+	 alert("you just clicked me");
+	 
+	 event.preventDefault();
+ }
+ 
+ aElement.addEventListener("click",clickMe);
  
  
